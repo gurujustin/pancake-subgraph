@@ -17,8 +17,6 @@
     "deploy:zksync-goerli": "graph deploy --product hosted-service --node https://api.thegraph.com/deploy/ --ipfs https://api.thegraph.com/ipfs/ chef-jojo/exchange-v3-zksync-goerli subgraph.yaml",
     "deploy:arb": "graph deploy --product hosted-service pancakeswap/exchange-v3-arb",
     "deploy:polygon-zkevm-testnet": "graph deploy --studio exchange-v3-polygon-zkevm-test",
-    "deploy:opbnb": "graph deploy --node https://open-platform-ap.nodereal.io/$API_KEY/opbnb-mainnet-graph-indexer/ --ipfs https://api.thegraph.com/ipfs/ pancakeswap/exchange-v3",
-    "create-pulse": "graph create --node http://80.78.27.230:8020 pulsetestnet/exchange",
-    "deploy-pulse": "graph deploy --node http://80.78.27.230:8020 --ipfs http://80.78.27.230:5001 pulsetestnet/exchange"
+    "deploy:opbnb": "graph deploy --node https://open-platform-ap.nodereal.io/$API_KEY/opbnb-mainnet-graph-indexer/ --ipfs https://api.thegraph.com/ipfs/ pancakeswap/exchange-v3"
   }
 }
